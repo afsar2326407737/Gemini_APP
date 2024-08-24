@@ -27,7 +27,7 @@ class _HomePageState extends State<HomePage> {
     });
 
     try {
-      final apiKey = 'Api_key_of_your_Gemini_Ai';
+      final apiKey = '<Api_key_of_your_Gemini_Ai>';
       final model = GenerativeModel(model: 'gemini-1.5-flash', apiKey: apiKey);
       final content = [Content.text(query)];
 
